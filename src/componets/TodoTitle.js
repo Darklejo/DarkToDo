@@ -1,4 +1,7 @@
-export function  TodoTitle(){
+import React from 'react';
+
+export function  TodoTitle(props){
+
     return(
         <div className='flex font-semibold grow p-2 text-white bg-black border-b-[2px] border-b-purple-700 '>
             <h2 className='text-2xl text-center w-full'>♰ DarkToDo ♰</h2>
